@@ -1,1 +1,2 @@
 # NUS2022SummerWorkshop
+本仓库用于存储我在新加坡国立大学(NUS)2022年暑假的Workshop中，在SWS3004 Cloud Computing with Big Data模块中阶段2学习中使用过的代码
