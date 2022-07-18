@@ -1,18 +1,27 @@
 ## 注册微信公众号
 首先进入[注册页面](https://mp.weixin.qq.com/cgi-bin/registermidpage?action=index&lang=zh_CN&token=)
+
 ![](https://cdn.jsdelivr.net/gh/LaGrange151235/myImage@main/202207182050728.png)
+
 由于我们是个人用户，所以选择订阅号
+
 ![](https://cdn.jsdelivr.net/gh/LaGrange151235/myImage@main/202207182053932.png)
+
 然后按照流程注册即可。
 ## 开启微信公众号开发者模式
 在左侧工具栏中选中“设置与开发-基本配置”
+
 ![](https://cdn.jsdelivr.net/gh/LaGrange151235/myImage@main/202207182056307.png)
+
 在右侧控制面板中找到“服务器配置”（我的已经启用了），点击“修改配置”
+
 ![](https://cdn.jsdelivr.net/gh/LaGrange151235/myImage@main/202207182058219.png)
+
 看到如下内容，其中：
 - URL：服务器的ip
 - Token：使用者自行设定，之后需要在服务器上自行编码完成验证
 - EncodingAESKey：点击“随机生成”即可自动生成
+
 ![](https://cdn.jsdelivr.net/gh/LaGrange151235/myImage@main/202207182100224.png)
 
 注意，此时是无法成功提交的，需要在服务器上进行环境配置
